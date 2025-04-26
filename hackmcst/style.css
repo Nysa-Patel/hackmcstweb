@@ -1,0 +1,112 @@
+@font-face {
+    font-family: dreamfont;
+    src: url("Dream.otf")
+}
+@font-face {
+    font-family: cutefont;
+    src: url("Hey\ Comic.otf")
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(93, 174, 228);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    color: blue;
+}
+.navbar li{
+    float: left;
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: underline;
+    font-family: "dreamfont";
+    font-size: 25px;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+    font-family: "dreamfont";
+    font-size: 25px;
+}
+body {
+    margin: 0;
+}
+.banner {
+    background: rgb(93, 174, 228);
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+    border: 15px solid rgb(166, 227, 227);
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 40px 220px;
+    margin-left: 80px;
+}
+.img p{
+    max-width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    max-width: 75%
+}
+h1{
+    font-family: dreamfont;
+}
+h3{
+    font-family: cutefont;
+}
+h4{
+    font-family: cutefont;
+}
+
+.groupimg{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 40px 220px;
+    margin-left: 80px;
+    border-radius: 40%;
+}
+.groupimg h3{
+    max-width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    max-width: 75%
+}
